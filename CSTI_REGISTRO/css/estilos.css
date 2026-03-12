@@ -1,0 +1,96 @@
+/* css/estilos.css (versión completa y lista para copiar) */
+body{
+    font-family: Arial;
+    background:#eef2f7;
+    height:100vh;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#login{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+#sistema{
+    display:none;
+}
+
+.container{
+    display:flex;
+    width:900px;
+    height:500px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.formulario{
+    width:55%;
+    padding:30px;
+}
+
+.panel{
+    width:45%;
+    background:#fafafa;
+    border-left:1px solid #ccc;
+    padding:15px;
+    overflow-y:auto;
+    font-size:0.9em; /* letra más pequeña en la lista de archivos */
+}
+
+/* ✅ Cada registro en una sola línea (panel) */
+.panel .registro{
+    display:flex;
+    align-items:center;
+    justify-content: space-between; /* texto a la izquierda, botones a la derecha */
+    border-bottom:1px solid #ddd;
+    padding:6px 0;
+    font-size:0.9em; /* letra más pequeña */
+}
+
+/* Contenedor de texto dentro del registro (opcional) */
+.panel .registro span{
+    display:inline-flex;
+    align-items:center;
+}
+
+/* Botones alineados a la derecha (dentro de cada registro) */
+.panel .registro button{
+    margin-left:5px;
+}
+
+.finalizado{
+    color:green;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:6px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:7px 12px;
+    cursor:pointer;
+    margin-top:5px;
+}
+
+#usuario{
+    color:#007BFF;
+    font-weight:bold;
+}
+
+#error{
+    color:red;
+}

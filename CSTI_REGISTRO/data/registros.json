@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1772692037851,
+    "pc": "COMPIUTADORAIPERMEGAPRO",
+    "color": "UNOMUYBONITOCOMONO",
+    "marca": "",
+    "modelo": "",
+    "serial": "",
+    "usuario": "Juan",
+    "fecha": "4/3/2026, 11:27:17 p.m.",
+    "finalizado": true
+  },
+  {
+    "id": 1772691981232,
+    "pc": "PC",
+    "color": "3",
+    "marca": "4",
+    "modelo": "5",
+    "serial": "6",
+    "usuario": "Administrador",
+    "fecha": "4/3/2026, 11:26:21 p.m.",
+    "finalizado": true
+  },
+  {
+    "id": 1772691884354,
+    "pc": "PC",
+    "color": "2",
+    "marca": "3",
+    "modelo": "4",
+    "serial": "5",
+    "usuario": "Administrador",
+    "fecha": "4/3/2026, 11:24:44 p.m.",
+    "finalizado": true
+  },
+  {
+    "id": 1772691711212,
+    "pc": "PC",
+    "color": "1",
+    "marca": "2",
+    "modelo": "3",
+    "serial": "4",
+    "usuario": "Administrador",
+    "fecha": "4/3/2026, 11:21:51 p.m.",
+    "finalizado": true
+  }
+]
